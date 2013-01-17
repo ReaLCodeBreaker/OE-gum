@@ -1,0 +1,14 @@
+# LAYER_CONF_VERSION is increased each time build/conf/bblayers.conf
+# changes incompatibly
+LCONF_VERSION = "4"
+
+BBFILES ?= ""
+BBLAYERS ?= " \
+  /home/sid/dev/poky/meta \
+  /home/sid/dev/poky/meta-yocto \
+  /home/sid/dev/poky/meta-oe/meta-gnome \
+  /home/sid/dev/poky/meta-oe/meta-oe \
+  /home/sid/dev/poky/meta-oe/meta-xfce \
+  /home/sid/dev/poky/meta-gumstix \
+  /home/sid/dev/meta-ti \
+  "
